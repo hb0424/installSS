@@ -47,7 +47,7 @@ systemctl enable shadowsocks
 systemctl start shadowsocks
 
 # view service status
-sleep 5
+sleep 6
 systemctl status shadowsocks -l
 
 echo "================================"
